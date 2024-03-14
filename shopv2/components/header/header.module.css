@@ -1,0 +1,24 @@
+.header{
+  background-color: var(--carrot-orange);
+  color: var(--text-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.flexwrapper{
+  flex-wrap: wrap;
+}
+
+.mobilesearch{
+  width: 100%;
+  margin: 1rem 0 0 0;
+}

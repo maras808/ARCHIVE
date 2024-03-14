@@ -1,0 +1,28 @@
+.menu{
+  display: flex;
+  margin-left: 1rem;
+  position: relative;
+  justify-content: space-around;
+}
+
+.menu > *{
+  margin: 0 .5rem 0 .5rem;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menudropdown{
+  position: absolute;
+  top: 100%;
+  width: 20rem;
+  margin: 0;
+  background-color: red;
+  height: 10rem;
+  z-index: 99;
+}

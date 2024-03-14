@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "scroll_to_nexts",
+  "info": {
+    "singularName": "scroll-to-next",
+    "pluralName": "scroll-to-nexts",
+    "displayName": "scrollToNext",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "misc.lottie",
+      "required": true
+    }
+  }
+}

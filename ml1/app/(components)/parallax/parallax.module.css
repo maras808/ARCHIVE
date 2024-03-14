@@ -1,0 +1,38 @@
+.parallax{
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backdrop{
+  background: linear-gradient(90deg, rgba(22,19,20,1) 0%, rgba(22,19,20,0) 25%, rgba(22,19,20,0) 75%, rgba(22,19,20,1) 100%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1920px;
+}
+
+.parallaxtext{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(2rem, 6vw, 7rem);
+  white-space: nowrap;
+  user-select: none;
+  font-family: 'Kanit', sans-serif;
+  text-shadow: .04em .04em 3px var(--main-toned)
+}

@@ -1,0 +1,17 @@
+.categoriesdropdown{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  max-height: 10rem;
+  background-color: var(--dark-cyan);
+  padding: 1rem;
+  z-index: 9;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}

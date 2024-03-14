@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  next:
+    build: ./next
+    ports:
+      - 65000:3000
+    restart: unless-stopped

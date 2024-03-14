@@ -1,0 +1,27 @@
+.categorieelement{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  user-select: none;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.top{
+  display: flex;
+  font-size: 2rem;
+  margin-right: .3em;
+}
+
+.bottom{
+  display: flex;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  padding: .6rem 0rem .6rem 0rem;
+}

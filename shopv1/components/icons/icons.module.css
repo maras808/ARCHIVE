@@ -1,0 +1,16 @@
+.icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconicon{
+  font-size: 1.5rem;
+  color: var(--dark);
+}
+
+.icontext{
+  font-size: .8rem;
+  user-select: none;
+}

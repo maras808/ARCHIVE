@@ -1,0 +1,14 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-size: var(--text-s-n);
+  margin: 0 1.5rem 0 1.5rem;
+}

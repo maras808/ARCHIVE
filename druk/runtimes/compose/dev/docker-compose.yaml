@@ -1,0 +1,10 @@
+services:
+  next:
+    build:
+      context: ../../docker/dev/next
+    ports:
+      - ${APP_ENTRYPORT}:3000
+      - ${PRISMA_STUDIO_ENTRYPORT}:5555
+    volumes:
+      - ../../../next:/app
+    command: bash -c "npm install --legacy-peer-deps && npm run dev"

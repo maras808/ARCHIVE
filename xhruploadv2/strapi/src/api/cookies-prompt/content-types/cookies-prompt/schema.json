@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "cookies_prompts",
+  "info": {
+    "singularName": "cookies-prompt",
+    "pluralName": "cookies-prompts",
+    "displayName": "cookiesPrompt"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

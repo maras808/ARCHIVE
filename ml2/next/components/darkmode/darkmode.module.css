@@ -1,0 +1,21 @@
+.darkmode{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: inherit;
+}
+
+.dark{
+  color: var(--i-dark);
+}
+
+.light{
+  color: var(--i-light)
+}
+
+.entry{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}

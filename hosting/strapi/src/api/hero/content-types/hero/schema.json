@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "heroes",
+  "info": {
+    "singularName": "hero",
+    "pluralName": "heroes",
+    "displayName": "hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link",
+      "required": true,
+      "min": 2,
+      "max": 2
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "misc.typewriter"
+    },
+    "lottie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "misc.lottie"
+    }
+  }
+}

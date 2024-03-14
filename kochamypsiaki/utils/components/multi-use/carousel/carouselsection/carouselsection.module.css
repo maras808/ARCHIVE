@@ -1,0 +1,59 @@
+.carouselsection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  padding: 0 4rem 0 4rem;
+  position: relative;
+}
+
+.wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+
+.blur{
+  background-color: #0000002f;
+  backdrop-filter: blur(.3rem);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -100vw;
+  margin: auto;
+  height: 100%;
+  z-index: -1;
+}
+
+.main, .secondary, .button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-wrap: balance;
+  color: var(--white);
+}
+
+.main{
+  margin-bottom: 2rem;
+  font-size: var(--text-size-xx);
+  text-transform: uppercase;
+}
+
+.secondary{
+  font-size: var(--text-size-x);
+}
+
+.button{
+  font-size: 2rem;
+  margin-top: 2rem;
+}

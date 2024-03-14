@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Home",
+    "href": "/",
+    "blank": false
+  },
+  {
+    "text": "Usługi",
+    "href": "/uslugi",
+    "blank": false
+  },
+  {
+    "text": "O mnie",
+    "href": "https://www.mareklawniczak.pl",
+    "blank": true
+  },
+  {
+    "text": "Kontakt",
+    "href": "https://www.mareklawniczak.pl/contact",
+    "blank": true
+  }
+]

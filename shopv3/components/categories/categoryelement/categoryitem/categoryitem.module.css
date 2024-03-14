@@ -1,0 +1,21 @@
+.categoryitem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: .5rem;
+  border: solid 2px var(--platinum-dark);
+  background-color: var(--white);
+  width: 12rem;
+  border-radius: 1rem;
+}
+
+.top{
+  font-size: 2rem;
+  background-color: inherit;
+}
+
+.bottom{
+  font-size: 1.5rem;
+}

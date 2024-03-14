@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_custom_images_dropdown_images",
+  "info": {
+    "displayName": "dropdownImage"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link",
+      "required": false
+    }
+  }
+}

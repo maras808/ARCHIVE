@@ -1,0 +1,20 @@
+.optionsstrip{
+  display: flex;
+  place-content: center;
+  background-color: var(--orange);
+  position: relative;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* .entry:not(:nth-last-child(1)), .entry:last-child{
+  border-right: solid 1px var(--black);
+}
+
+.entry:first-child{
+  border-left: solid 1px var(--black);
+} */

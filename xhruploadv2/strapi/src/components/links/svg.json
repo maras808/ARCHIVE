@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_links_svgs",
+  "info": {
+    "displayName": "svg"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "href": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.href",
+      "required": true
+    }
+  }
+}

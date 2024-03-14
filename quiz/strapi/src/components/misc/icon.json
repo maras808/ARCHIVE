@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_misc_icons",
+  "info": {
+    "displayName": "icon"
+  },
+  "options": {},
+  "attributes": {
+    "isAnimated": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "baseIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "animatedIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.categorylayout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categorycontent{
+  width: 100%;
+  display: flex;
+}

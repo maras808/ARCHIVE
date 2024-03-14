@@ -1,0 +1,13 @@
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--coral);
+  color: var(--text-white);
+}
+
+.carousel{
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+}

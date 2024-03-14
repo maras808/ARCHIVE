@@ -1,0 +1,48 @@
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+}
+
+.desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+}
+
+.entry{
+  font-size: var(--text-size-xx);
+  margin: 0.5em 0 0.5em 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.canvas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (width <= 1200px){
+  .canvas{
+    display: none;
+  }
+  .desc{
+    height: 100vh;
+  }
+}

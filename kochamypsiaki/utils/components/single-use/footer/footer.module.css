@@ -1,0 +1,30 @@
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-1);
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+}
+
+.content > *{
+  height: 100%;
+}
+
+.left{
+  min-width: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.right{
+  display: flex;
+  flex-grow: 1;
+}

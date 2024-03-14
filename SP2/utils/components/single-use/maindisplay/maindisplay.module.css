@@ -1,0 +1,36 @@
+.wrapper{
+  height: calc(100vh - 4rem);
+}
+
+.maindisplay{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  max-width: 40rem;
+  width: 50%;
+  text-wrap: balance;
+  position: relative;
+}
+
+.primary, .secondary{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.primary{
+  font-size: var(--text-s-r-xx);
+}
+
+.secondary{
+  font-size: var(--text-s-r-x);
+  margin: 2rem 0 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .maindisplay{
+    width: 100%;
+  }
+}

@@ -1,0 +1,8 @@
+.layout{
+  display: flex;
+}
+
+.content{
+  display: flex;
+  flex: 1;
+}

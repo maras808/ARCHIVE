@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_buttons_buttons",
+  "info": {
+    "displayName": "button"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

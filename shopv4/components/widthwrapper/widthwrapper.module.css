@@ -1,0 +1,8 @@
+.widthwrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: inherit;
+  width: 100%;
+  max-width: var(--width-wrapper)
+}

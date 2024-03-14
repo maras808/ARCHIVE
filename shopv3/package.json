@@ -1,0 +1,28 @@
+{
+  "name": "amazonaffiliateprogramv3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "eslint": "8.41.0",
+    "eslint-config-next": "^13.4.4",
+    "framer-motion": "^10.12.16",
+    "mongodb": "^5.5.0",
+    "next": "^13.4.4",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "swr": "^2.2.0",
+    "typescript": "5.0.4",
+    "valtio": "^1.10.5"
+  }
+}

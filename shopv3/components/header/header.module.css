@@ -1,0 +1,21 @@
+.header{
+  background-color: var(--carrot-orange);
+  color: var(--text-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.headercontent{
+  width: 100%;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom{
+  margin-top: .7rem;
+}

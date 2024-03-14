@@ -1,0 +1,22 @@
+[
+  {
+    "key":1,
+    "name":"O mnie",
+    "link":"/"
+  },
+  {
+    "key":2,
+    "name":"Edukacja",
+    "link":"/edukacja"
+  },
+  {
+    "key":3,
+    "name":"Umiejętności",
+    "link":"/umiejetnosci"
+  },
+  {
+    "key":4,
+    "name":"Kontakt",
+    "link":"/kontakt"
+  }
+]

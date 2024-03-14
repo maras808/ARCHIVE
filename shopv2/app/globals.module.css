@@ -1,0 +1,17 @@
+.widthwrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: inherit;
+  width: calc(100% - 2rem);
+  max-width: var(--wrapper-width);
+  position: relative;
+}
+
+.flexdir{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}

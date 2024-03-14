@@ -1,0 +1,64 @@
+:root{
+  --black: #000;
+  --white: #fff;
+
+  --main: #141415;
+  --main-lighter: #1e1e1f;
+
+  --accent-pink: #EE4266;
+
+  --accent-green: #38b000;
+  --accent-green-d: #34A300;
+
+  --accent-blue: #00A6FB;
+
+
+  --text-color-white: #ffffff;
+
+  --text-size-s: clamp(0.5rem, 4vw, 0.8rem);
+  --text-size-n: clamp(0.5rem, 5vw, 1rem);
+  --text-size-x: clamp(1rem, 4vw, 1.5rem);
+  --text-size-xx: clamp(1rem, 4vw, 1.8rem);
+  --text-size-xxx: clamp(1.6rem, 3vw, 2.2rem);
+
+  --i-dark: #D5D5D7;
+  --i-light: #ffb703;
+  --i-explore: #e63946;
+  --i-home: #3AB800;
+  --i-contact: #a8dadc;
+  --i-certificate: var(--i-light);
+
+  --i-js: #ebd44c;
+  --i-docker: #2064ec;
+  --i-email: #d90429;
+
+  --media-mobile: 767px;
+  --media-tablets: 1024px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* transition: color .3s linear, background-color .3s linear; */
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+body{
+  background-color: var(--main);
+  color: var(--text-color-white);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

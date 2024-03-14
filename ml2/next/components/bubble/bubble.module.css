@@ -1,0 +1,17 @@
+.bubble{
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text{
+  position: absolute;
+  background-color: var(--accent-blue);
+  font-size: var(--text-size-n);
+  padding: .3em;
+  border-radius: .2rem;
+  white-space: nowrap;
+}

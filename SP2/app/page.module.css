@@ -1,0 +1,53 @@
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.content{
+  width: 100%;
+}
+
+.secondarywrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  margin: 5rem 0 8rem 0;
+  background-color: var(--main);
+  border: solid 0.1rem var(--acc3);
+  position: relative;
+}
+
+.cardleft, .cardright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.cardright{
+  padding-top: 6rem;
+}
+
+
+@media (max-width: 1024px) {
+  .secondarywrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .cardright{
+    padding-top: 0rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .cardright, .cardleft{
+    padding: 0rem;
+  }
+  
+}

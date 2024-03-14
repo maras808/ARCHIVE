@@ -1,0 +1,20 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  position: sticky;
+  top: 0;
+  background-color: var(--main);
+  z-index: 2;
+}
+
+.content{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.logomar{
+  margin-right: 2rem;
+}
