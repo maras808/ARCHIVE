@@ -1,0 +1,32 @@
+.scrollingtext{
+  background-color: var(--violet);
+  padding: .2em;
+  color: var(--text-white);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start
+}
+
+.scroll{
+  padding: 0 5rem 0 5rem;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: anim 120s linear infinite alternate;
+  user-select: none;
+}
+
+.scroll > *{
+  margin: 0 1rem 0 1rem;
+  font-size: 1.2em;
+  color: var(--yellow);
+}
+
+@keyframes anim{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(calc(-100% + 100vw));
+  }
+}

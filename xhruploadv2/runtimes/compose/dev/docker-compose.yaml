@@ -1,0 +1,30 @@
+services:
+  next:
+    build:
+      context: ../../docker/dev/next
+    ports:
+      - ${APP_ENTRYPORT}:3000
+      - ${PRISMA_STUDIO_ENTRYPORT}:5555
+    volumes:
+      - ../../../next:/app
+    command: bash -c "npm install --legacy-peer-deps && npm run dev"
+    #command: bash -c "npm install --legacy-peer-deps && npm run build && npm run start"
+  strapi:
+    build:
+      context: ../../docker/dev/strapi
+    ports:
+      - ${STRAPI_ENTRYPOINT}:1337
+    volumes:
+      - ../../../strapi:/app
+    command: bash -c "npm install && npm run develop"
+
+  db:
+    restart: unless-stopped
+    ports:
+      - 3306:3306
+    image: mysql:8.3
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ../../../db/mysql:/var/lib/mysql

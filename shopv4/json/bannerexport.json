@@ -1,0 +1,17 @@
+[
+  {
+    "index" : 1,
+    "url": "/banner/1.jpg",
+    "desc": "First item"
+  },
+  {
+    "index" : 2,
+    "url": "/banner/2.jpg",
+    "desc": "Second item"
+  },
+  {
+    "index" : 3,
+    "url": "/banner/3.jpg",
+    "desc": "Third item"
+  }
+]

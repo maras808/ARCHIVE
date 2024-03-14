@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_texts",
+  "info": {
+    "singularName": "landing-text",
+    "pluralName": "landing-texts",
+    "displayName": "Landing text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

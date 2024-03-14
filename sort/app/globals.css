@@ -1,0 +1,32 @@
+:root{
+  --main: #141415;
+  --main-lighter: #1e1e1f;
+  --acc1: #EE4266;
+  --acc2: #38b000;
+  --acc2-2: #34A300;
+  --acc3: #00A6FB;
+
+  --text-c: #f8f8f8;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--main);
+  color: var(--text-c);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

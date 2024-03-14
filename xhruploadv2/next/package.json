@@ -1,0 +1,40 @@
+{
+  "name": "next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.10",
+    "@emotion/cache": "^11.13.1",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.7",
+    "@mui/material-nextjs": "^6.1.7",
+    "@prisma/client": "^6.0.1",
+    "framer-motion": "^11.11.17",
+    "graphql": "^16.9.0",
+    "lottie-react": "^2.4.0",
+    "next": "^15.0.4-canary.21",
+    "next-view-transitions": "^0.3.2",
+    "react": "19.0.0-rc-380f5d67-20241113",
+    "react-dom": "19.0.0-rc-380f5d67-20241113",
+    "react-markdown": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^9",
+    "eslint-config-next": "15.0.4-canary.13",
+    "prisma": "^6.0.1",
+    "typescript": "^5"
+  },
+  "prisma": {
+    "schema": "src/db/schema.prisma"
+  }
+}

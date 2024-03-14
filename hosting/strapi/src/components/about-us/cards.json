@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_us_cards",
+  "info": {
+    "displayName": "cards"
+  },
+  "options": {},
+  "attributes": {
+    "cardsTitle": {
+      "type": "string",
+      "required": true
+    },
+    "cardsDescription": {
+      "type": "text",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.simple-card",
+      "max": 3,
+      "min": 3,
+      "required": true
+    }
+  }
+}

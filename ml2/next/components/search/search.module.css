@@ -1,0 +1,35 @@
+.search{
+  width: 100%;
+  position: relative;
+}
+
+.input{
+  text-align: center;
+  width: 100%;
+  padding: .2rem;
+  border: none;
+  border-radius: .5rem;
+  outline: none;
+  font-size: var(--text-size-x);
+}
+
+.placeholder{
+  position: absolute;
+  color: black;
+  z-index: 1;
+  pointer-events: none;
+  inset: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

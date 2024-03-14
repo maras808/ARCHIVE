@@ -1,0 +1,30 @@
+.flexwrapreverse{
+  flex-wrap: wrap-reverse;
+}
+
+.title, .name, .content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.title{
+  font-style: italic;
+}
+
+.title > div{
+  border-bottom: solid .1em var(--acc-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ciscologo{
+  font-size: 14rem;
+}

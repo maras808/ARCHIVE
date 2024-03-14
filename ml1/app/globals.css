@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+:root{
+  --main: #161314;
+  --main-toned: #1a1617;
+  --text-main: #fff;
+  --text-toned: #c5c5c5;
+  --acc-orange: #EC4E20;
+  --acc-blue: #016FB9;
+
+  --i-phone: #0F9D58;
+  --i-mail: #DB4437;
+  --i-messanger: #00B2FF;
+
+  color-scheme: dark;
+}
+
+/* *{
+  outline: dashed 1px red;
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Mukta', sans-serif;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--main);
+  color: var(--text-main);
+  /* height: 100%; <- SCROLL-Y ZAWSZE 0*/
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_misc_searchbars",
+  "info": {
+    "displayName": "searchbar"
+  },
+  "options": {},
+  "attributes": {
+    "placeholder": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

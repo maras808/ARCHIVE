@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_misc_lotties",
+  "info": {
+    "displayName": "lottie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "json": {
+      "type": "json",
+      "required": true
+    },
+    "loop": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

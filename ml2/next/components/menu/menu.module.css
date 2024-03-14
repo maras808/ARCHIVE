@@ -1,0 +1,15 @@
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-size-xxx);
+}
+
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 .5rem 0 .5rem;
+  position: relative;
+  cursor: pointer;
+}

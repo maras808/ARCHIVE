@@ -1,0 +1,47 @@
+:root{
+  --black: #1F232C;
+  --white: #f8f8f8;
+
+  --main-1: #f8f8f8;
+  --main-2: #ededf0;
+  --main-3: #DDDDDD;
+  --main-4: #A0A0A0;
+
+  --secondary-1: #28ADD1;
+  --secondary-2: #F56A56;
+  --secondary-3: #CA2913;
+  --secondary-4: #EC4A34;
+
+  --text-color-main: #181818;
+  --text-color-white: #f8f8f8;
+
+  --text-size-n: 1rem;
+  --text-size-x: clamp(1.3rem, 1.5vw, 1.8rem);
+  --text-size-xx: clamp(2rem, 3vw, 3rem);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+body {
+  background-color: var(--main-1);
+  color: var(--text-color-main)
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

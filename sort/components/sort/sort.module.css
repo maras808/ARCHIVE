@@ -1,0 +1,16 @@
+.sort{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+
+.element{
+  display: flex;
+  width: 20px;
+  height: 5rem;
+  background-color: red;
+  margin: 0 .1rem 0 .1rem;
+}

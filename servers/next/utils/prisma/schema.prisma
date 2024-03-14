@@ -1,0 +1,102 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  BASIC
+}
+
+model User {
+  id                       String                    @id @default(cuid())
+  username                 String                    @unique
+  email                    String?                   @unique
+  passwordHash             String?
+  firstName                String?
+  lastName                 String?
+  createdAt                DateTime?                 @default(now())
+  updatedAt                DateTime?                 @updatedAt
+  lastLogin                DateTime?
+  description              String?
+  profilePicture           Bytes?
+  isAccountActive          Boolean                   @default(true)
+  role                     Role                      @default(BASIC)
+  servers                  Server[]
+  userNotificationSettings UserNotificationSettings?
+  userSecuritySettings     UserSecuritySettings?
+  userPrivacySettings      UserPrivacySettings?
+}
+
+enum ServerState {
+  RUNNING
+  STOPPED
+  BROKEN
+}
+
+model Server {
+  id            String      @id @default(cuid())
+  name          String
+  description   String?
+  miliCpus      Int         @default(0)
+  ramInMB       Int         @default(0)
+  diskspaceInMB Int         @default(0)
+  state         ServerState @default(BROKEN)
+  user          User?       @relation(fields: [userId], references: [id])
+  userId        String?
+
+  minecraftServerConfig   MinecraftServerConfig? @relation(fields: [minecraftServerConfigId], references: [id])
+  minecraftServerConfigId String?                @unique
+
+  valheimServerConfig   ValheimServerConfig? @relation(fields: [valheimServerConfigId], references: [id])
+  valheimServerConfigId String?              @unique
+}
+
+model MinecraftServerConfig {
+  id         String  @id @default(cuid())
+  mapSeed    String?
+  maxPlayers Int     @default(10)
+  gameMode   String  @default("survival")
+  Server     Server?
+}
+
+model ValheimServerConfig {
+  id         String  @id @default(cuid())
+  worldName  String
+  seed       String?
+  difficulty Int     @default(1)
+  Server     Server?
+}
+
+model UserNotificationSettings {
+  id     String  @id @default(cuid())
+  email  Boolean @default(true)
+  // push  Boolean @default(true)
+  // sms   Boolean @default(false)
+  user   User    @relation(fields: [userId], references: [id])
+  userId String  @unique
+}
+
+model UserSecuritySettings {
+  id                String  @id @default(cuid())
+  twoFactorAuth     Boolean @default(false)
+  securityQuestions Json?
+  user              User    @relation(fields: [userId], references: [id])
+  userId            String  @unique
+}
+
+enum ProfileVisibility {
+  PUBLIC
+  HIDDEN
+}
+
+model UserPrivacySettings {
+  id                String            @id @default(cuid())
+  profileVisibility ProfileVisibility
+  user              User              @relation(fields: [userId], references: [id])
+  userId            String            @unique
+}

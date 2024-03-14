@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_feed_follow_mores",
+  "info": {
+    "displayName": "followMore"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link",
+      "required": true
+    }
+  }
+}

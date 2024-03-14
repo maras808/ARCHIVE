@@ -1,0 +1,37 @@
+.komputery, .oprogramowanie{
+  height: calc(100vh - 4rem);
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.left, .right{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right{
+  display: flex;
+  flex-grow: 1;
+}
+
+.title{
+  font-size: var(--text-s-r-x);
+  margin: 2rem 0 2rem 0;
+}
+
+.desc{
+  font-size: var(--text-s-r);
+}

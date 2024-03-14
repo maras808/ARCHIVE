@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_links_hrefs",
+  "info": {
+    "displayName": "href",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "minLength": 2,
+      "regex": "^\\/[a-zA-Z0-9-]*$"
+    }
+  }
+}

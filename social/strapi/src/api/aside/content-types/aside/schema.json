@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "asides",
+  "info": {
+    "singularName": "aside",
+    "pluralName": "asides",
+    "displayName": "aside"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "entries": {
+      "type": "component",
+      "repeatable": true,
+      "component": "buttons.aside-entry"
+    }
+  }
+}

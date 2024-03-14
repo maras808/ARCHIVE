@@ -1,0 +1,49 @@
+.setting{
+  padding: 1rem;
+  display: flex;
+  border-radius: 1rem;
+  background-color: var(--platinum);
+  margin: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 2rem;
+  margin-right: 5rem;
+  color: var(--text-black);
+}
+
+.checkbox{
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  
+}
+
+.slider {
+  border-radius: 1rem;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--text-white);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: .26rem;
+}
+
+.ball{
+  aspect-ratio: 1/1;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--text-white);
+}

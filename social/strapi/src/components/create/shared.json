@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_create_shareds",
+  "info": {
+    "displayName": "_shared",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact > *{
+  margin-left: .5rem;
+  margin-right: .5rem;
+  white-space: nowrap;
+}

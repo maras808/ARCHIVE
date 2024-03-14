@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_links_links",
+  "info": {
+    "displayName": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "href": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.href"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.entry{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .4em;
+  cursor: pointer;
+  font-size: clamp(.8rem, 3vw, 1.5rem);
+  color: var(--text-black);
+}
+
+.text{
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.arrow{
+  transform: rotate(-90deg);
+  margin-left: .3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionstripdropdown{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 5;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: solid 1px var(--black);
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}

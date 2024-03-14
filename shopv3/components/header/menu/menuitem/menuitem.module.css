@@ -1,0 +1,14 @@
+.menuitem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 .5rem 0 .5rem;
+}
+
+.icon{
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

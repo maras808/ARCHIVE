@@ -1,0 +1,37 @@
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.buttonw{
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.slidemenu{
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: var(--main);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: var(--text-s-r-xx);
+  text-wrap: nowrap;
+}
+
+.closeButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}

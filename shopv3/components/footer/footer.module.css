@@ -1,0 +1,37 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 2px var(--platinum-dark);
+  background-color: var(--white);
+  padding-bottom: 4rem;
+}
+
+.footercontent{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.title{
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desc{
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}

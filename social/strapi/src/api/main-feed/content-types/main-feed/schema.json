@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_feeds",
+  "info": {
+    "singularName": "main-feed",
+    "pluralName": "main-feeds",
+    "displayName": "mainFeed",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "noMoreData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "feed.no-more-data",
+      "required": true
+    },
+    "followMore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "feed.follow-more"
+    }
+  }
+}

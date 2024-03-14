@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_misc_logos",
+  "info": {
+    "displayName": "Logo"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

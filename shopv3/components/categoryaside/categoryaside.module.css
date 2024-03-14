@@ -1,0 +1,25 @@
+.categoryaside{
+  width: 20rem;
+  margin: 1rem;
+  padding: .5rem;
+  border-right: solid 1px var(--text-black);
+}
+
+.colapse{
+  border-bottom: solid 2px var(--platinum-dark);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  white-space: nowrap;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 580px) {
+  .categoryaside{
+    display: none;
+  }
+}

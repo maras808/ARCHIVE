@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_feed_no_more_data",
+  "info": {
+    "displayName": "noMoreData"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "buttonTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

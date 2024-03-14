@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  --wrapper-width: 1500px;
+
+  --text-white: #fff;
+  --text-black: #000;
+
+  --white: #fff;
+  --black: #000;
+
+  --tinned-black: rgba(0, 0, 0, .2);
+  --tinned-white: rgba(255, 255, 255, .8);
+
+
+  --warining-red: red;
+  --carrot-orange: #F8961E;
+  --platinum: #f8f9fa;
+  --platinum-dark: #edf2f4;
+  --pistachio:#90BE6D;
+  --saffron: #F9C74F;
+  --cerulean: #279FD9;
+
+  /* color-scheme: dark; */
+}
+[data-theme='dark'] {
+  --text-white: #fff;
+  --text-black: #000;
+
+  --white: #212529;
+  --black: #fff;
+
+  --tinned-black: rgba(0, 0, 0, .2);
+  --tinned-white: rgba(255, 255, 255, .8);
+
+
+  --warining-red: red;
+  --carrot-orange: #F8961E;
+  --platinum: #f8f9fa;
+  --platinum-dark: #edf2f4;
+  --pistachio:#90BE6D;
+  --saffron: #F9C74F;
+  --cerulean: #279FD9;
+}
+
+/* *{
+  outline: solid 1px red;
+} */
+
+/* html{
+  transition: color 1s ease-in-out, background-color 1s ease-in-out;
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--white);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

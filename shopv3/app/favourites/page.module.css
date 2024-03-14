@@ -1,0 +1,13 @@
+.favourites{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  position: relative;
+}
+
+.favouritescontent{
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+}

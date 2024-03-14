@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_links_links",
+  "info": {
+    "displayName": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string",
+      "regex": "^/[a-zA-Z0-9]*$",
+      "required": true,
+      "minLength": 2
+    }
+  }
+}

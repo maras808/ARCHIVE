@@ -1,0 +1,10 @@
+{
+  "contact": {
+    "phone": ["505-556-902", "502-939-642"],
+    "address": {
+      "city": "Luboń",
+      "street": "11-go Listopada",
+      "nr": "52"
+    }
+  }
+}

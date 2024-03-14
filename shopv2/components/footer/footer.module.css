@@ -1,0 +1,6 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  color: var(--text-white);
+  background-color: var(--payne-grey);
+}

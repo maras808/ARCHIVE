@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_misc_typewriters",
+  "info": {
+    "displayName": "typewriter"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true,
+      "minLength": 2
+    },
+    "duration": {
+      "type": "integer",
+      "required": true,
+      "min": 500
+    }
+  }
+}

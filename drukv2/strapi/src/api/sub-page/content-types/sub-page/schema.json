@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "sub_pages",
+  "info": {
+    "singularName": "sub-page",
+    "pluralName": "sub-pages",
+    "displayName": "subPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    }
+  }
+}

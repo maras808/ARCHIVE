@@ -1,0 +1,16 @@
+.categories{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.categoriescontent{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,19 @@
+.darkmode{
+  font-size: 1.6rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.wrap{
+  display: flex;
+  place-content: center;
+  position: relative;
+}
+
+.icon{
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}

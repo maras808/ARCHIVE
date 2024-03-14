@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_create_stories",
+  "info": {
+    "displayName": "story",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "shared": {
+      "type": "component",
+      "repeatable": false,
+      "component": "create.shared"
+    }
+  }
+}

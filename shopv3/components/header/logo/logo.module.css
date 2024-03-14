@@ -1,0 +1,12 @@
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.logolink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

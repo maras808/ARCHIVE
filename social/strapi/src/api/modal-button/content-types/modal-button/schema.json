@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "modal_buttons",
+  "info": {
+    "singularName": "modal-button",
+    "pluralName": "modal-buttons",
+    "displayName": "modalButton"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  position: relative;
+}
+
+.cartcontent{
+  width: 100%;
+  display: flex;
+}

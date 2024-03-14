@@ -1,0 +1,18 @@
+services:
+  next:
+    build:
+      context: ../../docker/dev/next
+    ports:
+      - ${APP_ENTRYPORT}:3000
+      - ${PRISMA_STUDIO_ENTRYPORT}:5555
+    volumes:
+      - ../../../next:/app
+    command: bash -c "npm install --legacy-peer-deps && npm run dev"
+  strapi:
+    build:
+      context: ../../docker/dev/strapi
+    ports:
+      - 1337:1337
+    volumes:
+      - ../../../strapi:/app
+    command: bash -c "npm install && npm run develop"

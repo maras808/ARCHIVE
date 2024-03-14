@@ -1,0 +1,8 @@
+.button{
+  padding: .2em .5em .2em .5em;
+  font-size: var(--text-size-xxx);
+  background-color: var(--accent-green);
+  cursor: pointer;
+  border-radius: .3rem;
+  margin-top: 1rem;
+}

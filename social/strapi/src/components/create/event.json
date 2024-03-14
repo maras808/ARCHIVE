@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_create_events",
+  "info": {
+    "displayName": "event",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "shared": {
+      "type": "component",
+      "repeatable": false,
+      "component": "create.shared"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_us_joins",
+  "info": {
+    "displayName": "join",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link",
+      "max": 2,
+      "min": 2
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

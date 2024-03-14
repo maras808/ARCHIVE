@@ -1,0 +1,44 @@
+.cookies{
+  background-color: var(--platinum);
+  color: var(--text-black);
+  padding: .5rem;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  bottom: 0;
+}
+
+.cookiescontent{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.text{
+  flex: 1;
+  text-wrap: balance;
+}
+
+.buttons > * {
+  padding: .5rem;
+  margin: .5rem;
+  border: none;
+  border-radius: .3rem;
+}
+
+.buttons > *:hover{
+  cursor: pointer;
+}
+
+.agree{
+  background-color: var(--pistachio);
+}
+
+.disagree{
+  border: solid 2px var(--platinum-dark);
+  background-color: var(--white);
+}

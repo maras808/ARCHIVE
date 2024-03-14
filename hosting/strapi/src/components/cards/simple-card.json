@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_cards_simple_cards",
+  "info": {
+    "displayName": "simpleCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "aboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutUsCards": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "about-us.cards"
+    },
+    "join": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.join",
+      "required": true
+    }
+  }
+}

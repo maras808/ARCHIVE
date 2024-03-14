@@ -1,0 +1,21 @@
+.categories{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--payne-grey);
+  color: var(--text-white);
+}
+
+.categorylist{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subcategories{
+  font-size: 1rem;
+  padding: .3em;
+}
