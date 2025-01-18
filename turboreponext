@@ -1,0 +1,28 @@
+FROM node:18-alpine AS base
+
+FROM base as init
+WORKDIR /app
+RUN apk update
+RUN apk add --no-cache libc6-compat
+
+FROM init AS builder
+RUN npm i -g turbo
+COPY . .
+RUN turbo prune frontend --docker
+
+FROM init AS installer
+RUN corepack enable
+COPY --from=builder /app/out/json/ .
+RUN pnpm install
+COPY --from=builder /app/out/full/ .
+RUN pnpm turbo run build
+
+FROM base AS runner
+WORKDIR /app
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+USER nextjs
+COPY --from=installer --chown=nextjs:nodejs /app/apps/frontend/.next/standalone ./
+COPY --from=installer --chown=nextjs:nodejs /app/apps/frontend/.next/static ./apps/frontend/.next/static
+COPY --from=installer --chown=nextjs:nodejs /app/apps/frontend/public ./apps/frontend/public
+CMD node server.js
